@@ -21,6 +21,9 @@
     <ClCompile Include="1700.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
