@@ -1,19 +1,25 @@
 #include "common.h"
 
-#include "4.hpp"
+#include "901.hpp"
 
 int main() {
-	Solution solution;
-	
 	{
-		vector<int> nums1{ 1,3 };
-		vector<int> nums2{ 2 };
-		cout << solution.findMedianSortedArrays(nums1, nums2) << endl;
+		StockSpanner s;
+		cout << s.next(100) << endl;
+		cout << s.next(80) << endl;
+		cout << s.next(60) << endl;
+		cout << s.next(70) << endl;
+		cout << s.next(60) << endl;
+		cout << s.next(75) << endl;
+		cout << s.next(85) << endl;
 	}
 	{
-		vector<int> nums1{ 1,2 };
-		vector<int> nums2{ 3,4 };
-		cout << solution.findMedianSortedArrays(nums1, nums2) << endl;
+		StockSpanner s;
+		cout << s.next(29) << endl;
+		cout << s.next(91) << endl;
+		cout << s.next(62) << endl;
+		cout << s.next(76) << endl;
+		cout << s.next(51) << endl;
 	}
 	return 0;
 }
