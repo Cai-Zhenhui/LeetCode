@@ -1,6 +1,6 @@
 #include "common.h"
 
-#include "4.cpp"
+#include "4.hpp"
 
 int main() {
 	Solution solution;
