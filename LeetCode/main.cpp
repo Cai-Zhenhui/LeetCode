@@ -1,25 +1,13 @@
 #include "common.h"
 
-#include "901.hpp"
+#include "1768.hpp"
 
 int main() {
 	{
-		StockSpanner s;
-		cout << s.next(100) << endl;
-		cout << s.next(80) << endl;
-		cout << s.next(60) << endl;
-		cout << s.next(70) << endl;
-		cout << s.next(60) << endl;
-		cout << s.next(75) << endl;
-		cout << s.next(85) << endl;
-	}
-	{
-		StockSpanner s;
-		cout << s.next(29) << endl;
-		cout << s.next(91) << endl;
-		cout << s.next(62) << endl;
-		cout << s.next(76) << endl;
-		cout << s.next(51) << endl;
+		Solution s;
+		string s1 = "ab";
+		string s2 = "pqrs";
+		s.mergeAlternately(s1, s2);
 	}
 	return 0;
 }
