@@ -8,5 +8,6 @@
 #include <queue>
 #include <list>
 #include <deque>
+#include <stack>
 
 using namespace std;

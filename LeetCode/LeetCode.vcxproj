@@ -137,6 +137,7 @@
     <ClInclude Include="779.hpp" />
     <ClInclude Include="862.hpp" />
     <ClInclude Include="901.hpp" />
+    <ClInclude Include="907.hpp" />
     <ClInclude Include="915.hpp" />
     <ClInclude Include="934.hpp" />
     <ClInclude Include="common.h" />
