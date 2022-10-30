@@ -1,14 +1,13 @@
 #include "common.h"
 
-#include "1822.hpp"
+#include "784.hpp"
 
 int main() {
 	
 
 	{
 		Solution s;
-		vector<int> v={ -1,1,-1,1,-1};
-		s.arraySign(v);
+		s.letterCasePermutation("a1b2");
 	}
 	
 	return 0;
