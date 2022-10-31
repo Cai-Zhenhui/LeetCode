@@ -135,6 +135,7 @@
     <ClInclude Include="1768.hpp" />
     <ClInclude Include="1773.hpp" />
     <ClInclude Include="1822.hpp" />
+    <ClInclude Include="481.hpp" />
     <ClInclude Include="779.hpp" />
     <ClInclude Include="784.hpp" />
     <ClInclude Include="862.hpp" />
