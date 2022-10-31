@@ -9,5 +9,9 @@
 #include <list>
 #include <deque>
 #include <stack>
+#include <mutex>
+#include <functional>
+#include <thread>
+#include <semaphore>
 
 using namespace std;
