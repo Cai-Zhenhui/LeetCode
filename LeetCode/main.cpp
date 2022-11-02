@@ -1,13 +1,18 @@
 #include "common.h"
 
-#include "784.hpp"
+#include "1620.hpp"
 
 int main() {
 	
 
 	{
 		Solution s;
-		s.letterCasePermutation("a1b2");
+		vector<vector<int>> towers = {
+			{1,2,5},
+			{2,1,7},
+			{3,1,9}
+		};
+		s.bestCoordinate(towers, 2);
 	}
 	
 	return 0;
