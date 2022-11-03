@@ -1,6 +1,6 @@
 #include "common.h"
 
-#include "1620.hpp"
+#include "1668.hpp"
 
 int main() {
 	
@@ -12,7 +12,7 @@ int main() {
 			{2,1,7},
 			{3,1,9}
 		};
-		s.bestCoordinate(towers, 2);
+		s.maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba", "aaaba");
 	}
 	
 	return 0;

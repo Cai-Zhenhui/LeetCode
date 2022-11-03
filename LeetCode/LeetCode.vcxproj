@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="1700.hpp" />
     <ClCompile Include="4.hpp" />
+    <ClCompile Include="1668.hpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
