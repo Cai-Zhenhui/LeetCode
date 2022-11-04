@@ -77,5 +77,8 @@
     <ClInclude Include="1620.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="754.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
