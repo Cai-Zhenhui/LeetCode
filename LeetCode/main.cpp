@@ -1,13 +1,24 @@
 #include "common.h"
 
-#include "754.hpp"
+#include "1106.hpp"
 
 int main() {
 	
 
 	{
 		Solution s;
-		s.reachNumber(-1000000000);
+		vector<string> tcs = {
+			"!(&(f,t))",
+			"&(&(&(!(&(f)),&(t),|(f,f,t)),|(t),|(f,f,t)),!(&(|(f,f,t),&(&(f),&(!(t),&(f),|(f)),&(!(&(f)),&(t),|(f,f,t))),&(t))),&(!(&(&(!(&(f)),&(t),|(f,f,t)),|(t),|(f,f,t))),!(&(&(&(t,t,f),|(f,f,t),|(f)),!(&(t)),!(&(|(f,f,t),&(&(f),&(!(t),&(f),|(f)),&(!(&(f)),&(t),|(f,f,t))),&(t))))),!(&(f))))",
+			"!(&(&(!(&(f)),&(t),|(f,f,t)),&(t),&(t,t,f)))",
+			 "!(f)",
+			 "|(f,t)",
+			 "&(t,f)",
+			 "|(&(t,f,t),!(t))"
+		};
+		for (auto& tc : tcs) {
+			cout<<s.parseBoolExpr(tc)<<endl;
+		}
 	}
 	
 	return 0;
