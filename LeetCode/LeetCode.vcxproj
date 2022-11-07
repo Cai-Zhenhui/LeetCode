@@ -150,6 +150,7 @@
     <ClInclude Include="754.hpp" />
     <ClInclude Include="779.hpp" />
     <ClInclude Include="784.hpp" />
+    <ClInclude Include="816.hpp" />
     <ClInclude Include="862.hpp" />
     <ClInclude Include="901.hpp" />
     <ClInclude Include="907.hpp" />
