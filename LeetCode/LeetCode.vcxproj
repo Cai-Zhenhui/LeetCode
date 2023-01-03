@@ -137,6 +137,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1.hpp" />
     <ClInclude Include="1106.hpp" />
     <ClInclude Include="1114.hpp" />
     <ClInclude Include="1441.hpp" />
@@ -149,6 +150,7 @@
     <ClInclude Include="1773.hpp" />
     <ClInclude Include="1801.hpp" />
     <ClInclude Include="1822.hpp" />
+    <ClInclude Include="2042.hpp" />
     <ClInclude Include="481.hpp" />
     <ClInclude Include="754.hpp" />
     <ClInclude Include="779.hpp" />

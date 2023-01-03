@@ -98,5 +98,11 @@
     <ClInclude Include="1801.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="1.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="2042.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

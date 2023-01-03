@@ -1,5 +1,5 @@
 #include "common.h"
-#include "1801.hpp"
+#include "2042.hpp"
 
 int main() {
 	Solution s;
